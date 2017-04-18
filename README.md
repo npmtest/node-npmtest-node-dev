@@ -1,7 +1,10 @@
-# test coverage for  [node-dev (v3.1.3)](https://github.com/fgnass/node-dev#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-node-dev.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-node-dev) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-node-dev.svg)](https://travis-ci.org/npmtest/node-npmtest-node-dev)
+# npmtest-node-dev
+
+#### test coverage for  [node-dev (v3.1.3)](https://github.com/fgnass/node-dev#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-node-dev.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-node-dev) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-node-dev.svg)](https://travis-ci.org/npmtest/node-npmtest-node-dev)
+
 #### Restarts your app when files are modified
 
-[![NPM](https://nodei.co/npm/node-dev.png?downloads=true)](https://www.npmjs.com/package/node-dev)
+[![NPM](https://nodei.co/npm/node-dev.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/node-dev)
 
 | git-branch : | [alpha](https://github.com/npmtest/node-npmtest-node-dev/tree/alpha)|
 |--:|:--|
@@ -9,11 +12,17 @@
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-node-dev/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-node-dev/build/test-report.html)|
 | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-node-dev/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-node-dev/tree/gh-pages/build)|
 
-[![istanbul-coverage](https://npmtest.github.io/node-npmtest-node-dev/build/screenCapture.buildCustomOrg.browser.coverage.html.png)](https://npmtest.github.io/node-npmtest-node-dev/build/coverage.html/index.html)
+- [https://npmtest.github.io/node-npmtest-node-dev/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-node-dev/build/coverage.html/index.html)
 
-[![test-report](https://npmtest.github.io/node-npmtest-node-dev/build/screenCapture.buildCustomOrg.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmtest%252Fnode-npmtest-node-dev%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-node-dev/build/test-report.html)
+[![istanbul-coverage](https://npmtest.github.io/node-npmtest-node-dev/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fcoverage.lib.html.png)](https://npmtest.github.io/node-npmtest-node-dev/build/coverage.html/index.html)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-node-dev/build/screenCapture.buildApidoc.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmdoc%252Fnode-npmdoc-node-dev%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-node-dev/build/apidoc.html)
+- [https://npmtest.github.io/node-npmtest-node-dev/build/test-report.html](https://npmtest.github.io/node-npmtest-node-dev/build/test-report.html)
+
+[![test-report](https://npmtest.github.io/node-npmtest-node-dev/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-node-dev/build/test-report.html)
+
+- [https://npmdoc.github.io/node-npmdoc-node-dev/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-node-dev/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-node-dev/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-node-dev/build/apidoc.html)
 
 ![npmPackageListing](https://npmtest.github.io/node-npmtest-node-dev/build/screenCapture.npmPackageListing.svg)
 
@@ -38,7 +47,6 @@
     "contributors": [
         {
             "name": "Daniel Gasienica",
-            "email": "daniel@gasienica.ch",
             "url": "https://github.com/gasi/"
         }
     ],
@@ -80,22 +88,18 @@
     "main": "./lib",
     "maintainers": [
         {
-            "name": "fgnass",
-            "email": "fgnass@gmail.com"
+            "name": "fgnass"
         },
         {
-            "name": "gasi",
-            "email": "daniel@gasienica.ch"
+            "name": "gasi"
         },
         {
-            "name": "tomekwi",
-            "email": "t.wiszniewski@gmail.com"
+            "name": "tomekwi"
         }
     ],
     "name": "node-dev",
     "optionalDependencies": {},
     "preferGlobal": true,
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+ssh://git@github.com/fgnass/node-dev.git"
